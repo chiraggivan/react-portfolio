@@ -1,4 +1,4 @@
-// import { Container, Nav, Navbar } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 
 function PortfolioNavbar() {
   return (
@@ -24,24 +24,44 @@ function PortfolioNavbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav fs-3 gap-5 ms-auto mb-2 mb-lg-0">
             <li className="nav-item me-5 ms-5">
-              <a className="nav-link active " aria-current="page" href="#">
+              <NavLink
+                to="/"
+                className={({ isActive }) =>
+                  `nav-link ${isActive ? "active" : ""}`
+                }
+              >
                 Home
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item me-5">
-              <a className="nav-link" href="#">
-                About
-              </a>
-            </li>
-            <li className="nav-item me-5">
-              <a className="nav-link" href="#">
+              <NavLink
+                to="/backend"
+                className={({ isActive }) =>
+                  `nav-link ${isActive ? "active" : ""}`
+                }
+              >
                 Backend
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item me-5">
-              <a className="nav-link" href="#">
+              <NavLink
+                to="/frontend"
+                className={({ isActive }) =>
+                  `nav-link ${isActive ? "active" : ""}`
+                }
+              >
                 Frontend
-              </a>
+              </NavLink>
+            </li>
+            <li className="nav-item me-5">
+              <NavLink
+                to="/about"
+                className={({ isActive }) =>
+                  `nav-link ${isActive ? "active" : ""}`
+                }
+              >
+                About
+              </NavLink>
             </li>
             <li className="nav-item me-5">
               <a className="nav-link disabled" aria-disabled="true">

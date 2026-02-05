@@ -11,9 +11,8 @@ function StickyFooter({ children }: StickyFooterProps) {
     <div className="d-flex flex-column min-vh-100">
       {/* Page content (navbar, main, etc.) goes here */}
       <div className="flex-grow-1">{children}</div>
-
       {/* Footer */}
-      <footer className="d-flex mt-auto bg-dark text-white ">
+      <footer className="d-flex bg-dark text-white">
         <div className="d-flex flex-column ms-4 me-auto mt-4 mb-3">
           {/* First row: Social links + icons */}
           <div className="d-flex flex-column flex-md-row justify-content-center justify-content-md-between align-items-center gap-4 mb-3">

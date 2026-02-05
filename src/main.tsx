@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js"; // ← JS (includes Popper)
 import "bootstrap-icons/font/bootstrap-icons.css";
 import App from "./App.tsx";
+import "./App.css";
 // import PortfolioNavbar from "./components/navbar.tsx";
 
 createRoot(document.getElementById("root")!).render(
