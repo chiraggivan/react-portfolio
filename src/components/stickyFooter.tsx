@@ -19,19 +19,19 @@ function StickyFooter({ children }: StickyFooterProps) {
             {/* You can wrap in me-auto if you want them pushed left on larger screens */}
             <div className="d-flex align-items-center gap-4 fs-5">
               <a
-                href="https://linkedin.com/in/yourprofile"
+                href="https://www.linkedin.com/in/chirag-givan/"
                 className="text-white text-decoration-none"
               >
                 <i className="bi bi-linkedin me-2"></i>LinkedIn
               </a>
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:your.chirag.givan@gmail.com"
                 className="text-white text-decoration-none"
               >
                 <i className="bi bi-envelope me-2"></i>Email
               </a>
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/chiraggivan"
                 className="text-white text-decoration-none"
               >
                 <i className="bi bi-github me-2 "></i>GitHub

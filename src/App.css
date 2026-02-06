@@ -1,3 +1,66 @@
+/* Modern system font stack – very fast & looks native on every OS */
+:root {
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+               Arial, "Noto Sans", "Liberation Sans", sans-serif,
+               "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+               "Noto Color Emoji";
+}
+
+/* Optional: make headings a bit bolder (very common) */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;          /* or 700 if you want them stronger */
+  font-family: var(--font-sans); /* same family, just bolder */
+}
+
+* If you ever want a different font for code blocks / tech terms */
+code, pre, .font-mono {
+  font-family: ui-monospace, "Cascadia Code", "Segoe UI Mono", "Roboto Mono",
+               "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+               "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+}
+
+/* Slightly larger base font size (very readable) */
+html {
+  font-size: 18px;          /* or 17px, 19px — try what feels good */
+}
+
 .text-justify {
   text-align: justify;
+}
+
+.set-color{
+  color: #5cff95;
+}
+
+/* Stronger selector + !important to override Bootstrap */
+h1.name-heading,
+.name-heading {
+  font-size: 7rem !important;
+  font-weight: 900 !important;
+  line-height: 0.9 !important;
+  letter-spacing: -0.06em !important;
+}
+
+/* Make sure it works on large screens too */
+@media (min-width: 1200px) {
+  h1.name-heading,
+  .name-heading {
+    font-size: 7rem !important;
+  }
+}
+
+.pill-progress {
+  height: 20px;                   
+  border-radius: 9999px;          
+  background-color: #212529;       
+  overflow: hidden;        
+  border: 2px solid #939595;  
+  padding: 3px;      
+  /*box-shadow: inset 0 1px 3px rgba(0,0,0,0.08);  */
+}
+
+/* Make sure the filling bar also gets fully rounded corners */
+.pill-progress .progress-bar {
+  border-radius: 9999px;  
+  /* background-color: #5cff95 !important;      */
 }
