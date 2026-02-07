@@ -29,11 +29,12 @@ function PortfolioNavbar() {
                 className={({ isActive }) =>
                   `nav-link ${isActive ? "active" : ""}`
                 }
-                onClick={() =>
-                  document
-                    .querySelector(".navbar-collapse")
-                    .classList.remove("show")
-                }
+                onClick={() => {
+                  const collapse = document.querySelector(".navbar-collapse");
+                  if (collapse) {
+                    collapse.classList.remove("show");
+                  }
+                }}
               >
                 Home
               </NavLink>
@@ -44,11 +45,12 @@ function PortfolioNavbar() {
                 className={({ isActive }) =>
                   `nav-link ${isActive ? "active" : ""}`
                 }
-                onClick={() =>
-                  document
-                    .querySelector(".navbar-collapse")
-                    .classList.remove("show")
-                }
+                onClick={() => {
+                  const collapse = document.querySelector(".navbar-collapse");
+                  if (collapse) {
+                    collapse.classList.remove("show");
+                  }
+                }}
               >
                 Backend
               </NavLink>
@@ -59,11 +61,12 @@ function PortfolioNavbar() {
                 className={({ isActive }) =>
                   `nav-link ${isActive ? "active" : ""}`
                 }
-                onClick={() =>
-                  document
-                    .querySelector(".navbar-collapse")
-                    .classList.remove("show")
-                }
+                onClick={() => {
+                  const collapse = document.querySelector(".navbar-collapse");
+                  if (collapse) {
+                    collapse.classList.remove("show");
+                  }
+                }}
               >
                 Frontend
               </NavLink>
@@ -74,11 +77,12 @@ function PortfolioNavbar() {
                 className={({ isActive }) =>
                   `nav-link ${isActive ? "active" : ""}`
                 }
-                onClick={() =>
-                  document
-                    .querySelector(".navbar-collapse")
-                    .classList.remove("show")
-                }
+                onClick={() => {
+                  const collapse = document.querySelector(".navbar-collapse");
+                  if (collapse) {
+                    collapse.classList.remove("show");
+                  }
+                }}
               >
                 About
               </NavLink>
