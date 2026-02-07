@@ -64,3 +64,82 @@ h1.name-heading,
   border-radius: 9999px;  
   /* background-color: #5cff95 !important;      */
 }
+
+.golden-neon-frame {
+  --size: 40vmin;           /* Adjust overall size – keep square */
+  --glow-color: #ffd700;   /* Pure gold / #ffea00 / #f5c518 variations work  well */
+  --glow-intensity: 1.2;
+
+  position: relative;
+  width: var(--size);
+  height: var(--size);
+  margin: 4vmin auto;       /* Center it for now */
+  background: #0a0a0a;     /* Dark background so glow pops (or transparent) */
+  border-radius: 30vmin;     /* Slight softening of square corners – set to 0 for sharp */
+  overflow: hidden;
+  isolation: isolate;      /* Helps with blending/glow stacking */
+
+  /* Main golden neon border + glow layers */
+  box-shadow:
+    /* Inner subtle glow */
+    inset 0 0 20px rgba(255, 215, 0, 0.25),
+    
+    /* Core bright gold border glow */
+    0 0 5vmin var(--glow-color),
+    0 0 10vmin var(--glow-color),
+    0 0 20vmin color-mix(in srgb, var(--glow-color) 70%, transparent),
+    
+    /* Outer softer halo */
+    0 0 30vmin color-mix(in srgb, var(--glow-color) 40%, transparent),
+    
+    /* Very faint distant glow */
+    0 0 50vmin color-mix(in srgb, var(--glow-color) 20%, transparent);
+}
+
+/* Creates the transparent circular cutout (portal hole) */
+.golden-neon-frame::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at 50% 50%,
+    transparent 58%,          /* Size of transparent circle – adjust % */
+    #393939 42%               /* Matches background so it looks cut out */
+  );
+  pointer-events: none;
+  z-index: 1;
+  mix-blend-mode: multiply;   /* Helps blend naturally on dark bg */
+}
+
+/* Optional: extra pulsing/breathing glow layer (subtle animation) */
+.golden-neon-frame::after {
+  content: "";
+  position: absolute;
+  inset: -20%;
+  border-radius: inherit;
+  background: radial-gradient(
+    circle at 50% 50%,
+    transparent 30%,
+    var(--glow-color) 45%,
+    transparent 100%
+  );
+  opacity: 0.15;
+  /* animation: pulse 8s ease-in-out infinite; */
+  pointer-events: none;
+  z-index: 0;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.12; transform: scale(1); }
+  50%      { opacity: 0.28; transform: scale(1.08); }
+}
+
+.portal-video {
+  position: absolute;
+  inset: 0;               /* fill the entire frame container */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;      /* or 'contain' — test which looks better with your video */
+  z-index: 1;             /* behind the glow / cutout layers */
+  pointer-events: none;   /* optional: prevents interaction with video controls if any */
+}
