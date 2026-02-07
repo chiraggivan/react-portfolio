@@ -12,8 +12,8 @@ function StickyFooter({ children }: StickyFooterProps) {
       {/* Page content (navbar, main, etc.) goes here */}
       <div className="flex-grow-1">{children}</div>
       {/* Footer */}
-      <footer className="d-flex bg-dark text-white">
-        <div className="d-flex flex-column ms-4 me-auto mt-4 mb-3">
+      <footer className="d-flex flex-column flex-lg-row bg-dark text-white">
+        <div className="d-flex flex-column ms-4 me-auto mt-4 mb-lg-3">
           {/* First row: Social links + icons */}
           <div className="d-flex flex-column flex-md-row justify-content-center justify-content-md-between align-items-center gap-4 mb-3">
             {/* You can wrap in me-auto if you want them pushed left on larger screens */}
@@ -47,7 +47,7 @@ function StickyFooter({ children }: StickyFooterProps) {
           </div>
         </div>
 
-        <div className="mt-4 text-white  text-end me-4">
+        <div className="p-4 p-lg-0 mt-lg-4 text-white  text-start text-lg-end me-4">
           <p className="fs-5">
             Built with <SiReact className="me-2" size={32} color="#61DAFB" />
             React + <FaBootstrap className="me-2" size={32} color="#8734fc" />

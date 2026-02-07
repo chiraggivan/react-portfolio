@@ -23,11 +23,16 @@ function PortfolioNavbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav fs-5 gap-5 ms-auto mb-2 mb-lg-0">
-            <li className="nav-item me-5 ms-5">
+            <li className="nav-item me-5">
               <NavLink
                 to="/react-portfolio/"
                 className={({ isActive }) =>
                   `nav-link ${isActive ? "active" : ""}`
+                }
+                onClick={() =>
+                  document
+                    .querySelector(".navbar-collapse")
+                    .classList.remove("show")
                 }
               >
                 Home
@@ -39,6 +44,11 @@ function PortfolioNavbar() {
                 className={({ isActive }) =>
                   `nav-link ${isActive ? "active" : ""}`
                 }
+                onClick={() =>
+                  document
+                    .querySelector(".navbar-collapse")
+                    .classList.remove("show")
+                }
               >
                 Backend
               </NavLink>
@@ -49,6 +59,11 @@ function PortfolioNavbar() {
                 className={({ isActive }) =>
                   `nav-link ${isActive ? "active" : ""}`
                 }
+                onClick={() =>
+                  document
+                    .querySelector(".navbar-collapse")
+                    .classList.remove("show")
+                }
               >
                 Frontend
               </NavLink>
@@ -58,6 +73,11 @@ function PortfolioNavbar() {
                 to="/react-portfolio/about"
                 className={({ isActive }) =>
                   `nav-link ${isActive ? "active" : ""}`
+                }
+                onClick={() =>
+                  document
+                    .querySelector(".navbar-collapse")
+                    .classList.remove("show")
                 }
               >
                 About
