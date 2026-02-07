@@ -129,3 +129,17 @@ h1.name-heading,
   z-index: 1;             /* behind the glow / cutout layers */
   pointer-events: none;   /* optional: prevents interaction with video controls if any */
 }
+/* making pages at 80% zoom */
+/* Add this to your global stylesheet (app.css / index.css) */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#root {                       /* or .app / main wrapper – the top-level React container */
+  transform: scale(0.8);      /* 0.8 = 80% — try 0.82–0.85 if 0.8 feels too small */
+  transform-origin: top left; /* keeps scaling from top-left corner */
+  width: 125%;                /* 100% / 0.8 = 125% — prevents content cutoff */
+  height: 125%;               /* same for height */
+  min-height: 100vh;
+}
