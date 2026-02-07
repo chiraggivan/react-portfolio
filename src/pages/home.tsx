@@ -13,7 +13,7 @@ export default function Home() {
                   type="video/webm"
                 />
                 <source
-                  src="/react-portfolio/videos/react-12sec.mp4"
+                  src="/react-portfolio/videos/react-12sec1.mp4"
                   type="video/mp4"
                 />
                 Your browser does not support the video tag.

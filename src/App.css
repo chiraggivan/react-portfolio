@@ -101,33 +101,19 @@ h1.name-heading,
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(
-    circle at 50% 50%,
-    transparent 58%,          /* Size of transparent circle – adjust % */
-    #393939 42%               /* Matches background so it looks cut out */
-  );
+  background: 
+    radial-gradient(
+      circle at 50% 50%,
+      transparent 65%,           /* inner transparent → video visible */
+      #666666 75%,               /* start of solid grey ring – change color as needed */
+      #666666 72%,               /* end of solid grey ring – controls thickness */
+      transparent 42%            /* sharp cut-off back to background */
+    );
   pointer-events: none;
-  z-index: 1;
-  mix-blend-mode: multiply;   /* Helps blend naturally on dark bg */
+  z-index: 2;
+  mix-blend-mode: normal;   /* Helps blend naturally on dark bg */
 }
 
-/* Optional: extra pulsing/breathing glow layer (subtle animation) */
-.golden-neon-frame::after {
-  content: "";
-  position: absolute;
-  inset: -20%;
-  border-radius: inherit;
-  background: radial-gradient(
-    circle at 50% 50%,
-    transparent 30%,
-    var(--glow-color) 45%,
-    transparent 100%
-  );
-  opacity: 0.15;
-  /* animation: pulse 8s ease-in-out infinite; */
-  pointer-events: none;
-  z-index: 0;
-}
 
 @keyframes pulse {
   0%, 100% { opacity: 0.12; transform: scale(1); }

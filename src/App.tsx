@@ -13,10 +13,10 @@ function App() {
         <PortfolioNavbar />
         <main className="flex-grow-1">
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/backend" element={<Backend />} />
-            <Route path="/frontend" element={<Frontend />} />
+            <Route path="/react-portfolio/" element={<Home />} />
+            <Route path="/react-portfolio/about" element={<About />} />
+            <Route path="/react-portfolio/backend" element={<Backend />} />
+            <Route path="/react-portfolio/frontend" element={<Frontend />} />
 
             <Route path="*" element={<div>404 – Page not found</div>} />
           </Routes>

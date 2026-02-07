@@ -41,7 +41,7 @@ function Techblock({ techIcon, techName, techDescp }: Props) {
         )}
       </div>
       <div>
-        <h5 className="mb-1 fs-2">{techName}</h5>
+        <h5 className="mb-1 fs-3">{techName}</h5>
         <p
           className="text-white-50 text-justify mb-0 fs-5"
           style={{ fontFamily: '"Cascadia Code", system-ui, sans-serif' }}
