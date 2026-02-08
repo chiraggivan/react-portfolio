@@ -35,8 +35,25 @@ function PortfolioNavbar() {
                     collapse.classList.remove("show");
                   }
                 }}
+                end
               >
                 Home
+              </NavLink>
+            </li>
+            <li className="nav-item me-5">
+              <NavLink
+                to="/react-portfolio/about"
+                className={({ isActive }) =>
+                  `nav-link ${isActive ? "active" : ""}`
+                }
+                onClick={() => {
+                  const collapse = document.querySelector(".navbar-collapse");
+                  if (collapse) {
+                    collapse.classList.remove("show");
+                  }
+                }}
+              >
+                About
               </NavLink>
             </li>
             <li className="nav-item me-5">
@@ -71,9 +88,10 @@ function PortfolioNavbar() {
                 Frontend
               </NavLink>
             </li>
+
             <li className="nav-item me-5">
               <NavLink
-                to="/react-portfolio/about"
+                to="/react-portfolio/projects"
                 className={({ isActive }) =>
                   `nav-link ${isActive ? "active" : ""}`
                 }
@@ -84,13 +102,8 @@ function PortfolioNavbar() {
                   }
                 }}
               >
-                About
+                Project ++
               </NavLink>
-            </li>
-            <li className="nav-item me-5">
-              <a className="nav-link disabled" aria-disabled="true">
-                Disabled
-              </a>
             </li>
           </ul>
         </div>

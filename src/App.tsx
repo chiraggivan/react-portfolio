@@ -5,6 +5,7 @@ import Home from "./pages/home";
 import About from "./pages/about";
 import Backend from "./pages/backend";
 import Frontend from "./pages/frontend";
+import Projects from "./pages/projects";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="/react-portfolio/about" element={<About />} />
             <Route path="/react-portfolio/backend" element={<Backend />} />
             <Route path="/react-portfolio/frontend" element={<Frontend />} />
+            <Route path="/react-portfolio/projects" element={<Projects />} />
 
             <Route path="*" element={<div>404 – Page not found</div>} />
           </Routes>

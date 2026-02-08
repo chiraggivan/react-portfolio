@@ -11,7 +11,7 @@ export default function Backend() {
     {
       icon: "FaDatabase",
       name: "Database",
-      desc: "This is the data backbone of my applications. I design normalized relational schemas and use SQL not only for queries but for enforcing integrity. Stored procedures play a big role in my approach — handling multi-table inserts, updates, unit conversions, and dependency-aware operations directly at the database layer to keep data consistent and reliable.",
+      desc: "This is the data backbone of my applications. I design normalized relational schemas and use SQL not only for queries but for enforcing integrity. Stored procedures play a big role in my approach - handling multi-table inserts, updates, unit conversions, and dependency-aware operations directly at the database layer to keep data consistent and reliable.",
     },
     {
       icon: "FaUserLock",

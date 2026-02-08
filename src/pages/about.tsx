@@ -19,12 +19,12 @@ export default function About() {
             and what happens when something goes wrong. I like tracing bugs back
             to their root cause, understanding why they occurred, and
             redesigning the flow so the same issue can’t happen again.
-            Debugging, for me, is not just fixing errors — it’s learning how the
+            Debugging, for me, is not just fixing errors - it’s learning how the
             system truly behaves.
           </p>
           <p>
             This mindset shaped the way I built my recipe, meal planning, and
-            cost-calculation platform using Python, Flask, and MySQL. I focused
+            cost-calculation platform using Python, Flask, and MySQL. I focussed
             heavily on data integrity, safe updates, and real-world workflows. I
             implemented snapshot-based dish history, dynamic unit conversion,
             stored procedures for multi-table operations, and backend

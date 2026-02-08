@@ -6,7 +6,7 @@ export default function Frontend() {
     {
       icon: "FaDesktop",
       name: "HTML, CSS, JavaScript, Bootstrap",
-      desc: "These are my foundation — HTML for clean structure, CSS for pixel-perfect styling, JavaScript for interactivity, and Bootstrap for fast, responsive layouts. I love how small tweaks in CSS can completely transform user experience, and how vanilla JS still powers most of the web’s magic under the hood.",
+      desc: "These are my foundation - HTML for clean structure, CSS for pixel-perfect styling, JavaScript for interactivity, and Bootstrap for fast, responsive layouts. The small tweaks in CSS can completely transform user experience, and vanilla JS still powers most of the web’s magic under the hood.",
     },
     {
       icon: "FaReact",
