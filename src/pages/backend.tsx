@@ -33,7 +33,7 @@ export default function Backend() {
   const dataTechProgress = [
     { name: "Python", percent: 70 },
     { name: "MySQL", percent: 90 },
-    { name: "Flask", percent: 65 },
+    { name: "Flask", percent: 75 },
     { name: "JWT", percent: 75 },
     { name: "REST API", percent: 80 },
     { name: "Github", percent: 45 },

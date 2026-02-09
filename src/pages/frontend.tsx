@@ -16,10 +16,10 @@ export default function Frontend() {
   ];
 
   const dataTechProgress = [
-    { name: "Html", percent: 60 },
-    { name: "CSS", percent: 75 },
-    { name: "JavaScript", percent: 40 },
-    { name: "Bootstrap", percent: 60 },
+    { name: "Html", percent: 70 },
+    { name: "CSS", percent: 65 },
+    { name: "JavaScript", percent: 75 },
+    { name: "Bootstrap", percent: 80 },
     { name: "React", percent: 65 },
   ];
 

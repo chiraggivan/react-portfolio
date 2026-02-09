@@ -20,9 +20,12 @@ const Projects = () => {
               </div>
               <div className="col-md-12 col-lg-8">
                 <div className="card-body">
-                  <h5 className="pb-1 card-title d-inline-block border-bottom border-primary border-2">
-                    The Cookbook
-                  </h5>
+                  <a href="https://github.com/chiraggivan/the-cookbook">
+                    <h5 className="pb-1 card-title d-inline-block border-bottom border-primary border-2 text-white">
+                      The Cookbook
+                    </h5>
+                  </a>
+
                   <p className="card-text">
                     A full-stack web application for creating recipes, plan
                     meals, manage your own ingredients, track cooking history,
@@ -64,30 +67,35 @@ const Projects = () => {
                     </h5>
                   </div>
 
-                  <p className="card-text px-md-2 px-lg- px-xl-5 my-3 fs-3">
-                    I am a passionate data engineer and analyst skilled in
-                    building scalable, automated data pipelines that turn raw
-                    data into actionable business insights. Proficient in SQL,
-                    Python, Snowflake, BigQuery, AWS (RDS, S3, Lambda,
-                    CloudWatch, SNS), and Terraform (IaC), I have hands-on
-                    experience designing end-to-end ETL processes, implementing
-                    error logging/monitoring systems, and deploying cloud-based
-                    data solutions - enabling efficient data transformation,
-                    reliable operations, and strategic decision-making for
-                    business growth.
+                  <p className="card-text px-md-2 px-lg- px-xl-5 my-3 fs-5">
+                    Beyond full-stack web development, projects also include
+                    hands-on work in data engineering and analytics, focused on
+                    building scalable, automated pipelines that transform raw
+                    operational data into meaningful business insights.
+                  </p>
+                  <p className="card-text px-md-2 px-lg- px-xl-5 my-3 fs-5">
+                    Experience includes designing end-to-end ETL workflows using
+                    SQL, Python, Snowflake, BigQuery, and AWS services (RDS, S3,
+                    Lambda, CloudWatch, SNS), along with Terraform for
+                    Infrastructure as Code. These projects emphasize reliable
+                    data movement, structured transformations, and robust error
+                    logging/monitoring systems to ensure dependable,
+                    production-ready data solutions that support informed
+                    decision-making and operational efficiency.
                   </p>
                   <p className="card-text px-md-2 px-lg- px-xl-5 my-3 fs-4">
-                    <small className="text-body-secondary">
-                      Click below image to visit Data Engineer/ Data Analyst
-                      Portfolio
-                    </small>
+                    <a href="https://chiraggivan.github.io/DataAnalyst/">
+                      <small className="text-body-secondary border-0">
+                        Portfolio: Data Engineer / Data Analyst
+                      </small>
+                    </a>
                   </p>
                 </div>
               </div>
               <div className="">
                 <a href="https://chiraggivan.github.io/DataAnalyst/">
                   <img
-                    src="/react-portfolio/images/data-portfolio-light.png"
+                    src="/react-portfolio/images/data-portfolio-light-16-9.png"
                     className="img-fluid "
                     alt="Data Portfolio"
                   />

@@ -102,7 +102,7 @@ function PortfolioNavbar() {
                   }
                 }}
               >
-                Project ++
+                Project++
               </NavLink>
             </li>
           </ul>
