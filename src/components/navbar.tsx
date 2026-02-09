@@ -25,7 +25,7 @@ function PortfolioNavbar() {
           <ul className="navbar-nav fs-5 gap-5 ms-auto mb-2 mb-lg-0">
             <li className="nav-item me-5">
               <NavLink
-                to="/react-portfolio/"
+                to="/"
                 className={({ isActive }) =>
                   `nav-link ${isActive ? "active" : ""}`
                 }
@@ -42,7 +42,7 @@ function PortfolioNavbar() {
             </li>
             <li className="nav-item me-5">
               <NavLink
-                to="/react-portfolio/about"
+                to="/about"
                 className={({ isActive }) =>
                   `nav-link ${isActive ? "active" : ""}`
                 }
@@ -58,7 +58,7 @@ function PortfolioNavbar() {
             </li>
             <li className="nav-item me-5">
               <NavLink
-                to="/react-portfolio/backend"
+                to="/backend"
                 className={({ isActive }) =>
                   `nav-link ${isActive ? "active" : ""}`
                 }
@@ -74,7 +74,7 @@ function PortfolioNavbar() {
             </li>
             <li className="nav-item me-5">
               <NavLink
-                to="/react-portfolio/frontend"
+                to="/frontend"
                 className={({ isActive }) =>
                   `nav-link ${isActive ? "active" : ""}`
                 }
@@ -91,7 +91,7 @@ function PortfolioNavbar() {
 
             <li className="nav-item me-5">
               <NavLink
-                to="/react-portfolio/projects"
+                to="/projects"
                 className={({ isActive }) =>
                   `nav-link ${isActive ? "active" : ""}`
                 }
