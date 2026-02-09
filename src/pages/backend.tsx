@@ -42,8 +42,8 @@ export default function Backend() {
   return (
     <main>
       <section className="py-5 bg-dark text-white">
-        {/* Left column – What do I know */}
         <div className="d-flex flex-column flex-lg-row">
+          {/* Left column – What do I know */}
           <div className="p-3 p-lg-5 col-lg-8">
             <h2 className="mb-4 border-bottom border-primary border-2 pb-2 fs-1">
               What do I Know ?

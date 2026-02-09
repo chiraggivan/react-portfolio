@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div className="d-flex">
       <div className="col-lg-2"></div>
-      <div className="py-5 px-5 px-lg-0 col-lg-8">
+      <div className="py-5 px-3 px-lg-0 col-lg-8">
         <h2 className="mb-4 border-bottom border-primary border-2 pb-2 fs-1">
           Yes, Thats me !!
         </h2>
@@ -12,7 +12,7 @@ export default function About() {
         >
           <p>
             Enjoy building applications that work correctly, reliably, and
-            predictably — not just ones that look impressive.
+            predictably - not just ones that look impressive.
           </p>
           <p>
             Naturally drawn to understanding how data flows through a system and

@@ -7,7 +7,7 @@ const Projects = () => {
         <div className="col-lg-0 col-xl-1 col-xxl-2"></div>
         <div className="col-lg-12 col-xl-10 col-xxl-8 d-flex flex-column">
           {/* first card */}
-          <div className="card m-5 rounded-5 overflow-hidden">
+          <div className="card m-3 m-xs-4 m-lg-5 rounded-5 overflow-hidden">
             <div className="row g-0 ">
               <div className="col-lg-4">
                 <a href="https://github.com/chiraggivan/the-cookbook">
@@ -44,16 +44,17 @@ const Projects = () => {
           </div>
 
           {/* addition skills */}
-          <div className="m-2 d-flex">
-            <div className="px-5">
+          <div className="m-3 mx-lg-5 d-flex">
+            <div className="">
               <GiWhiteBook className="icon-heading" />
             </div>
-            <div className="pb-1 fs-3 d-inline-element border-bottom border-5 border-primary text-white">
+            <div className="ms-2 ms-lg-4 pb-1 fs-3 d-inline-element border-bottom border-5 border-primary text-white">
               Additional Skills
             </div>
           </div>
+
           {/* second card */}
-          <div className="card m-5 rounded-5 overflow-hidden">
+          <div className="card m-3 m-xs-4 m-lg-5 rounded-5 overflow-hidden">
             <div className="row g-0 ">
               <div className="">
                 <div className="card-body">
@@ -87,7 +88,7 @@ const Projects = () => {
                 <a href="https://chiraggivan.github.io/DataAnalyst/">
                   <img
                     src="/react-portfolio/images/data-portfolio-light.png"
-                    className="img-fluid rounded-start "
+                    className="img-fluid "
                     alt="Data Portfolio"
                   />
                 </a>
