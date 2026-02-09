@@ -6,12 +6,12 @@ export default function Frontend() {
     {
       icon: "FaDesktop",
       name: "HTML, CSS, JavaScript, Bootstrap",
-      desc: "These are my foundation - HTML for clean structure, CSS for pixel-perfect styling, JavaScript for interactivity, and Bootstrap for fast, responsive layouts. The small tweaks in CSS can completely transform user experience, and vanilla JS still powers most of the web’s magic under the hood.",
+      desc: "These are my foundation - HTML for clean structure, CSS for pixel perfect styling, JavaScript for interactivity, and Bootstrap for fast, responsive layouts. The small tweaks in CSS can completely transform user experience, and vanilla JS still powers most of the web’s magic under the hood.",
     },
     {
       icon: "FaReact",
       name: "React",
-      desc: "My go-to library for building modern, interactive user interfaces. I love how React turns complex UIs into small, reusable components and how the virtual DOM + hooks make state management feel clean and predictable. Right now I'm most excited about mastering hooks, context API, and building performant apps that scale smoothly as features grow.",
+      desc: "My go to library for building modern, interactive user interfaces. I love how React turns complex UIs into small, reusable components and how the virtual DOM + hooks make state management feel clean and predictable. Right now I'm most excited about mastering hooks, context API, and building performant apps that scale smoothly as features grow.",
     },
   ];
 

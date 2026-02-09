@@ -4,7 +4,7 @@ export default function About() {
       <div className="col-lg-2"></div>
       <div className="py-5 px-3 mt-lg-5 px-lg-0 col-lg-8">
         <h2 className="mb-4 border-bottom border-primary border-2 pb-2 fs-1">
-          Yes, Thats me !!
+          Yes, that's me !!
         </h2>
         <div
           className="fs-5"
@@ -27,7 +27,7 @@ export default function About() {
             cost-calculation platform built with Python, Flask, and MySQL.
             Strong emphasis was placed on data integrity, safe updates, and
             real-world workflows. The system includes snapshot-based dish
-            history, dynamic unit conversion, stored procedures for multi-table
+            history, dynamic unit conversion, stored procedures for multi table
             operations, and backend validations that prevent inconsistent states
             before they occur.
           </p>

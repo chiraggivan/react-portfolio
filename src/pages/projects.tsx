@@ -55,9 +55,54 @@ const Projects = () => {
               Additional Skills
             </div>
           </div>
+          <p className="card-text px-md-2 px-lg- px-xl-5 my-2 fs-5">
+            Beyond full-stack web development, projects also include hands-on
+            work in data engineering and analytics, focused on building
+            scalable, automated pipelines that transform raw operational data
+            into meaningful business insights.
+          </p>
 
           {/* second card */}
           <div className="card m-3 m-xs-4 m-lg-5 rounded-5 overflow-hidden">
+            <div className="row g-0 ">
+              <div className="col-md-12 col-lg-8">
+                <div className="card-body">
+                  <a href="https://chiraggivan.github.io/DataAnalyst/">
+                    <h5 className="pb-1 card-title d-inline-block border-bottom border-primary border-2 text-white">
+                      Data Engineer / Data Analyst
+                    </h5>
+                  </a>
+
+                  <p className="card-text">
+                    Experience includes designing end-to-end ETL workflows using
+                    SQL, Python, Snowflake, BigQuery, and AWS services (RDS, S3,
+                    Lambda, CloudWatch, SNS), along with Terraform for
+                    Infrastructure as Code.
+                    <br />
+                    <a href="https://chiraggivan.github.io/DataAnalyst/">
+                      see more...
+                    </a>
+                  </p>
+                  <p className="card-text">
+                    <small className="text-body-secondary">
+                      Last updated 08 Feb 26{" "}
+                    </small>
+                  </p>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <a href="https://chiraggivan.github.io/DataAnalyst/">
+                  <img
+                    src="/react-portfolio/images/data-portfolio-light.png"
+                    className="img-fluid "
+                    alt="Cookbook Project"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* <div className="card m-3 m-xs-4 m-lg-5 rounded-5 overflow-hidden">
             <div className="row g-0 ">
               <div className="">
                 <div className="card-body">
@@ -77,7 +122,7 @@ const Projects = () => {
                     Experience includes designing end-to-end ETL workflows using
                     SQL, Python, Snowflake, BigQuery, and AWS services (RDS, S3,
                     Lambda, CloudWatch, SNS), along with Terraform for
-                    Infrastructure as Code. These projects emphasize reliable
+                    Infrastructure as Code. These projects emphasise reliable
                     data movement, structured transformations, and robust error
                     logging/monitoring systems to ensure dependable,
                     production-ready data solutions that support informed
@@ -85,7 +130,7 @@ const Projects = () => {
                   </p>
                   <p className="card-text px-md-2 px-lg- px-xl-5 my-3 fs-4">
                     <a href="https://chiraggivan.github.io/DataAnalyst/">
-                      <small className="text-body-secondary border-0">
+                      <small className="text-body-secondary ">
                         Portfolio: Data Engineer / Data Analyst
                       </small>
                     </a>
@@ -102,7 +147,7 @@ const Projects = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="col-lg-0 col-xl-1 col-xxl-2"></div>
       </div>

@@ -7,8 +7,12 @@ function PortfolioNavbar() {
       data-bs-theme="dark"
     >
       <div className="container-fluid mt-3 mb-3">
-        <a className="navbar-brand fs-2" href="#">
-          Brand Name
+        <a className="ps-3 ps-lg-5 navbar-brand fs-2" href="#">
+          <img
+            alt="Logo image"
+            src="/react-portfolio/images/logo.png"
+            style={{ height: "68px" }}
+          />
         </a>
         <button
           className="navbar-toggler"

@@ -11,7 +11,7 @@ export default function Backend() {
     {
       icon: "FaDatabase",
       name: "Database",
-      desc: "This is the data backbone of my applications. I design normalized relational schemas and use SQL not only for queries but for enforcing integrity. Stored procedures play a big role in my approach - handling multi-table inserts, updates, unit conversions, and dependency-aware operations directly at the database layer to keep data consistent and reliable.",
+      desc: "This is the data backbone of my application. I design normalised relational schemas and use SQL not only for queries but for enforcing integrity. Stored procedures play a big role in my approach - handling multi table inserts, updates, unit conversions, and dependency aware operations directly at the database layer to keep data consistent and reliable.",
     },
     {
       icon: "FaUserLock",
@@ -21,7 +21,7 @@ export default function Backend() {
     {
       icon: "BiLogoFlask",
       name: "REST APIs & Server-Side Rendering (Jinja2)",
-      desc: "I design clean REST APIs for structured data flow between frontend and backend, while also using Jinja2 for server-side rendering to create fast, SEO-friendly, data-driven pages without relying on heavy frontend frameworks. It’s a balance of performance, simplicity, and clarity.",
+      desc: "I design clean REST APIs for structured data flow between frontend and backend, while also using Jinja2 for server side rendering to create fast, SEO friendly, data driven pages without relying on heavy frontend frameworks. It’s a balance of performance, simplicity, and clarity.",
     },
     {
       icon: "FaGithub",
