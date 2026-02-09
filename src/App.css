@@ -41,8 +41,8 @@ h1.name-heading,
   letter-spacing: -0.06em !important;
 }
 .icon-heading {
-  font-size: 5rem !important;
-  font-weight: 700 !important;
+  font-size: 3rem !important;
+  font-weight: 200 !important;
   line-height: 0.9 !important;
   color: #ea7602;
   letter-spacing: -0.06em !important;
@@ -156,6 +156,7 @@ html, body {
   margin: 0;
   padding: 0;
 }
+/* below css is to make the whole website to 80% zoom as in zoom out slightly */
 #root {                       /* or .app / main wrapper – the top-level React container */
   transform: scale(0.8);      /* 0.8 = 80% — try 0.82–0.85 if 0.8 feels too small */
   transform-origin: top left; /* keeps scaling from top-left corner */

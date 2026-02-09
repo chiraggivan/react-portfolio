@@ -4,36 +4,37 @@ export default function About() {
       <div className="col-lg-2"></div>
       <div className="py-5 px-5 px-lg-0 col-lg-8">
         <h2 className="mb-4 border-bottom border-primary border-2 pb-2 fs-1">
-          Yes, thats me !!
+          Yes, Thats me !!
         </h2>
         <div
           className="fs-5"
           style={{ fontFamily: '"Cascadia Code", system-ui, sans-serif' }}
         >
           <p>
-            I don’t enjoy building flashy apps. I enjoy building apps that{" "}
-            <strong>work properly.</strong>
+            Enjoy building applications that work correctly, reliably, and
+            predictably — not just ones that look impressive.
           </p>
           <p>
-            I’m naturally drawn to understanding how data moves through a system
-            and what happens when something goes wrong. I like tracing bugs back
-            to their root cause, understanding why they occurred, and
-            redesigning the flow so the same issue can’t happen again.
-            Debugging, for me, is not just fixing errors - it’s learning how the
-            system truly behaves.
+            Naturally drawn to understanding how data flows through a system and
+            what truly happens when something breaks. Debugging is not just
+            about fixing errors, but about tracing issues to their root cause
+            and redesigning the flow so the same problem cannot occur again.
+            It’s a way of learning how the system actually behaves under real
+            conditions.
           </p>
           <p>
-            This mindset shaped the way I built my recipe, meal planning, and
-            cost-calculation platform using Python, Flask, and MySQL. I focussed
-            heavily on data integrity, safe updates, and real-world workflows. I
-            implemented snapshot-based dish history, dynamic unit conversion,
-            stored procedures for multi-table operations, and backend
-            validations that prevent inconsistent states before they occur.
+            This mindset shaped the development of a recipe, meal planning, and
+            cost-calculation platform built with Python, Flask, and MySQL.
+            Strong emphasis was placed on data integrity, safe updates, and
+            real-world workflows. The system includes snapshot-based dish
+            history, dynamic unit conversion, stored procedures for multi-table
+            operations, and backend validations that prevent inconsistent states
+            before they occur.
           </p>
           <p>
-            I enjoy thinking through edge cases, designing clean database
+            Enjoy thinking through edge cases, designing clean database
             relationships, and writing backend logic that remains reliable as
-            features grow. My goal is to build software that feels simple to
+            features grow. The goal is to build software that feels simple to
             users but is deeply thought-through underneath.
           </p>
         </div>

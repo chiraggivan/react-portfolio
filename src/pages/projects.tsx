@@ -10,15 +10,17 @@ const Projects = () => {
           <div className="card m-5 rounded-5 overflow-hidden">
             <div className="row g-0 ">
               <div className="col-lg-4">
-                <img
-                  src="/react-portfolio/images/cookbook-16-9.png"
-                  className="img-fluid rounded-start "
-                  alt="Cookbook Project"
-                />
+                <a href="https://github.com/chiraggivan/the-cookbook">
+                  <img
+                    src="/react-portfolio/images/cookbook-16-9.png"
+                    className="img-fluid rounded-start "
+                    alt="Cookbook Project"
+                  />
+                </a>
               </div>
               <div className="col-md-12 col-lg-8">
                 <div className="card-body">
-                  <h5 className="pb-2 card-title d-inline-block border-bottom border-primary border-2">
+                  <h5 className="pb-1 card-title d-inline-block border-bottom border-primary border-2">
                     The Cookbook
                   </h5>
                   <p className="card-text">
@@ -42,11 +44,11 @@ const Projects = () => {
           </div>
 
           {/* addition skills */}
-          <div className="m-5 d-flex">
+          <div className="m-2 d-flex">
             <div className="px-5">
               <GiWhiteBook className="icon-heading" />
             </div>
-            <div className="pb-2 icon-heading d-inline-element border-bottom border-5 border-primary text-white">
+            <div className="pb-1 fs-3 d-inline-element border-bottom border-5 border-primary text-white">
               Additional Skills
             </div>
           </div>
@@ -72,6 +74,12 @@ const Projects = () => {
                     data solutions - enabling efficient data transformation,
                     reliable operations, and strategic decision-making for
                     business growth.
+                  </p>
+                  <p className="card-text px-md-2 px-lg- px-xl-5 my-3 fs-4">
+                    <small className="text-body-secondary">
+                      Click below image to visit Data Engineer/ Data Analyst
+                      Portfolio
+                    </small>
                   </p>
                 </div>
               </div>

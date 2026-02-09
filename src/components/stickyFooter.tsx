@@ -13,7 +13,7 @@ function StickyFooter({ children }: StickyFooterProps) {
       <div className="flex-grow-1">{children}</div>
       {/* Footer */}
       <footer className="d-flex flex-column flex-lg-row bg-dark text-white border-top border-2 border-secondary">
-        <div className="d-flex flex-column ms-4 me-auto mt-4 mb-lg-3">
+        <div className="d-flex flex-column ms-3 ms-lg-4 me-auto mt-4 mb-lg-3">
           {/* First row: Social links + icons */}
           <div className="d-flex flex-column flex-md-row justify-content-center justify-content-md-between align-items-center gap-4 mb-3">
             {/* You can wrap in me-auto if you want them pushed left on larger screens */}
