@@ -55,12 +55,12 @@ const Projects = () => {
               Additional Skills
             </div>
           </div>
-          <p className="card-text px-md-2 px-lg- px-xl-5 my-2 fs-5">
+          <div className="lead card-text m-3 mx-lg-5 fs-5">
             Beyond full-stack web development, projects also include hands-on
             work in data engineering and analytics, focused on building
             scalable, automated pipelines that transform raw operational data
             into meaningful business insights.
-          </p>
+          </div>
 
           {/* second card */}
           <div className="card m-3 m-xs-4 m-lg-5 rounded-5 overflow-hidden">
