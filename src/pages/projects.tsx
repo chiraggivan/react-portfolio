@@ -22,7 +22,7 @@ const Projects = () => {
                 <div className="card-body">
                   <a href="https://github.com/chiraggivan/the-cookbook">
                     <h5 className="pb-1 card-title d-inline-block border-bottom border-primary border-2 text-white">
-                      The Cookbook
+                      The-Cookbook
                     </h5>
                   </a>
 
