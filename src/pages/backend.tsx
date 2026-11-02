@@ -4,39 +4,53 @@ import TechProgressBar from "../components/techProgressBar";
 export default function Backend() {
   const dataTechBlock = [
     {
+      icon: "RiNodejsLine",
+      name: "Node.js & Express.js",
+      desc: "Backend development using Node.js and Express.js to build server-side application logic, handle HTTP requests, and structure application routes. Experience includes developing REST APIs, implementing middleware, handling asynchronous operations, and connecting backend services with MySQL.",
+    },
+    {
       icon: "FaPython",
       name: "Python & Flask",
-      desc: "This is where the application logic comes to life. Python handles the business rules and validations, while Flask provides a clean structure for routing, request handling, and application flow. I enjoy building backend systems where clarity, structure, and maintainability are just as important as functionality.",
+      desc: "Previous experience building backend applications using Python and Flask, focusing on business logic, server-side validations, application routing, and maintainable backend architecture.",
     },
     {
       icon: "FaDatabase",
-      name: "Database",
-      desc: "This is the data backbone of my application. I design normalised relational schemas and use SQL not only for queries but for enforcing integrity. Stored procedures play a big role in my approach - handling multi table inserts, updates, unit conversions, and dependency aware operations directly at the database layer to keep data consistent and reliable.",
+      name: "Database Design & MySQL",
+      desc: "Designing normalized relational database schemas and using SQL for complex queries, joins, common table expressions, stored procedures, and database transactions. Particular attention to data integrity, indexing, connection pooling, and efficient data retrieval.",
     },
     {
       icon: "FaUserLock",
-      name: "JWT Authentication & Role-Based Access",
-      desc: "Security and control are built into the backend. I implemented JWT-based authentication and enforced role-based permissions (User/Admin) at the server level, ensuring that sensitive operations are protected by logic, not just UI restrictions.",
+      name: "JWT Authentication & Security",
+      desc: "Implementing JWT-based authentication, password hashing using bcrypt, protected routes, authentication middleware, and role-based access control to secure application resources.",
     },
     {
       icon: "BiLogoFlask",
       name: "REST APIs & Server-Side Rendering (Jinja2)",
-      desc: "I design clean REST APIs for structured data flow between frontend and backend, while also using Jinja2 for server side rendering to create fast, SEO friendly, data driven pages without relying on heavy frontend frameworks. It’s a balance of performance, simplicity, and clarity.",
+      desc: "Developing RESTful APIs with Express.js and integrating frontend applications with backend services using Axios. Experience includes request validation, error handling, pagination, search, and asynchronous API operations.",
+    },
+    {
+      icon: "BiLogoFlask",
+      name: "Email Integration",
+      desc: "Integrating email functionality using Nodemailer, including email verification and password reset workflows.",
     },
     {
       icon: "FaGithub",
       name: "Git & GitHub",
-      desc: "Version control is how I think. I use Git not just to save code, but to structure development, track evolution of features, and maintain clean, understandable project history.",
+      desc: "Using Git and GitHub for version control, managing code changes, maintaining project history, and collaborating with deployment workflows.",
     },
   ];
 
   const dataTechProgress = [
-    { name: "Python", percent: 70 },
+    { name: "Node.js", percent: 70 },
+    { name: "Express.js", percent: 75 },
     { name: "MySQL", percent: 90 },
+    { name: "Python", percent: 70 },
+    { name: "Multer", percent: 65 },
+    { name: "Nodemailer", percent: 65 },
     { name: "Flask", percent: 75 },
-    { name: "JWT", percent: 75 },
-    { name: "REST API", percent: 80 },
-    { name: "Github", percent: 45 },
+    { name: "JWT Authentication", percent: 75 },
+    { name: "REST API Development", percent: 80 },
+    { name: "Git & Github", percent: 45 },
   ];
 
   return (
@@ -50,19 +64,13 @@ export default function Backend() {
             </h2>
 
             {dataTechBlock.map((item) => (
-              <Techblock
-                techIcon={item.icon}
-                techName={item.name}
-                techDescp={item.desc}
-              />
+              <Techblock techIcon={item.icon} techName={item.name} techDescp={item.desc} />
             ))}
           </div>
 
           {/* Right column – Coding skills */}
           <div className="p-3 p-lg-5 col-lg-4">
-            <h2 className="mb-4 fs-1 border-bottom border-primary border-2 pb-2">
-              Coding skills
-            </h2>
+            <h2 className="mb-4 fs-1 border-bottom border-primary border-2 pb-2">Coding skills</h2>
             {dataTechProgress.map((item) => (
               <TechProgressBar techName={item.name} techPctg={item.percent} />
             ))}
