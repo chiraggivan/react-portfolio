@@ -4,7 +4,7 @@ import TechProgressBar from "../components/techProgressBar";
 export default function Backend() {
   const dataTechBlock = [
     {
-      icon: "RiNodejsLine",
+      icon: "FaNodeJs",
       name: "Node.js & Express.js",
       desc: "Backend development using Node.js and Express.js to build server-side application logic, handle HTTP requests, and structure application routes. Experience includes developing REST APIs, implementing middleware, handling asynchronous operations, and connecting backend services with MySQL.",
     },

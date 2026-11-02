@@ -6,6 +6,7 @@ import {
   FaGithub,
   FaDatabase,
   FaPython,
+  FaNodeJs,
 } from "react-icons/fa6";
 import { BiLogoFlask } from "react-icons/bi";
 
@@ -15,10 +16,7 @@ interface Props {
   techDescp: ReactNode;
 }
 // Create a mapping object
-const iconMap: Record<
-  string,
-  React.ComponentType<{ className?: string; size?: number }>
-> = {
+const iconMap: Record<string, React.ComponentType<{ className?: string; size?: number }>> = {
   FaDesktop: FaDesktop,
   FaReact: FaReact,
   FaUserLock: FaUserLock,
@@ -26,6 +24,7 @@ const iconMap: Record<
   FaDatabase: FaDatabase,
   FaPython: FaPython,
   BiLogoFlask: BiLogoFlask,
+  FaNodeJs: FaNodeJs,
   // You can also do: ...fa (but better to be explicit for tree-shaking)
 };
 
@@ -34,11 +33,7 @@ function Techblock({ techIcon, techName, techDescp }: Props) {
   return (
     <div className="d-flex align-items-start mb-4">
       <div className="me-3 fs-1 text-primary">
-        {IconComponent ? (
-          <IconComponent />
-        ) : (
-          <div className="text-6xl text-gray-500 mb-4">?</div>
-        )}
+        {IconComponent ? <IconComponent /> : <div className="text-6xl text-gray-500 mb-4">?</div>}
       </div>
       <div>
         <h5 className="mb-1 fs-3">{techName}</h5>
