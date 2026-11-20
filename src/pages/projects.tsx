@@ -9,6 +9,41 @@ const Projects = () => {
           {/* first card */}
           <div className="card m-3 m-xs-4 m-lg-5 rounded-5 overflow-hidden">
             <div className="row g-0 ">
+              <div className="col-md-12 col-lg-8">
+                <div className="card-body">
+                  <a href="https://chiraggivan.github.io/DataAnalyst/">
+                    <h5 className="pb-1 card-title d-inline-block border-bottom border-primary border-2 text-white">
+                      Data Engineer / Data Analyst
+                    </h5>
+                  </a>
+
+                  <p className="card-text">
+                    Experience includes designing end-to-end ETL workflows using SQL, Python,
+                    Snowflake, BigQuery, and AWS services (RDS, S3, Lambda, CloudWatch, SNS), along
+                    with Terraform for Infrastructure as Code.
+                    <br />
+                    <a href="https://chiraggivan.github.io/DataAnalyst/">see more...</a>
+                  </p>
+                  <p className="card-text">
+                    <small className="text-body-secondary">Last updated 08 Feb 26 </small>
+                  </p>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <a href="https://chiraggivan.github.io/DataAnalyst/">
+                  <img
+                    src="/react-portfolio/images/data-portfolio-light.png"
+                    className="img-fluid "
+                    alt="Cookbook Project"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* second card */}
+          <div className="card m-3 m-xs-4 m-lg-5 rounded-5 overflow-hidden">
+            <div className="row g-0 ">
               <div className="col-lg-4">
                 <a href="https://github.com/chiraggivan/the-cookbook">
                   <img
@@ -27,19 +62,14 @@ const Projects = () => {
                   </a>
 
                   <p className="card-text">
-                    A full-stack web application for creating recipes, plan
-                    meals, manage your own ingredients, track cooking history,
-                    calculate true costs, and even share or discover recipes -
-                    all in one thoughtfully designed platform built for real
+                    A full-stack web application for creating recipes, plan meals, manage your own
+                    ingredients, track cooking history, calculate true costs, and even share or
+                    discover recipes - all in one thoughtfully designed platform built for real
                     kitchens. <br />
-                    <a href="https://github.com/chiraggivan/the-cookbook">
-                      see more...
-                    </a>
+                    <a href="https://github.com/chiraggivan/the-cookbook">see more...</a>
                   </p>
                   <p className="card-text">
-                    <small className="text-body-secondary">
-                      Last updated 08 Feb 26{" "}
-                    </small>
+                    <small className="text-body-secondary">Last updated 08 Feb 26 </small>
                   </p>
                 </div>
               </div>
@@ -56,13 +86,12 @@ const Projects = () => {
             </div>
           </div>
           <div className="lead card-text m-3 mx-lg-5 fs-5">
-            Beyond full-stack web development, projects also include hands-on
-            work in data engineering and analytics, focused on building
-            scalable, automated pipelines that transform raw operational data
-            into meaningful business insights.
+            Beyond full-stack web development, projects also include hands-on work in data
+            engineering and analytics, focused on building scalable, automated pipelines that
+            transform raw operational data into meaningful business insights.
           </div>
 
-          {/* second card */}
+          {/* Third card */}
           <div className="card m-3 m-xs-4 m-lg-5 rounded-5 overflow-hidden">
             <div className="row g-0 ">
               <div className="col-md-12 col-lg-8">
@@ -74,19 +103,14 @@ const Projects = () => {
                   </a>
 
                   <p className="card-text">
-                    Experience includes designing end-to-end ETL workflows using
-                    SQL, Python, Snowflake, BigQuery, and AWS services (RDS, S3,
-                    Lambda, CloudWatch, SNS), along with Terraform for
-                    Infrastructure as Code.
+                    Experience includes designing end-to-end ETL workflows using SQL, Python,
+                    Snowflake, BigQuery, and AWS services (RDS, S3, Lambda, CloudWatch, SNS), along
+                    with Terraform for Infrastructure as Code.
                     <br />
-                    <a href="https://chiraggivan.github.io/DataAnalyst/">
-                      see more...
-                    </a>
+                    <a href="https://chiraggivan.github.io/DataAnalyst/">see more...</a>
                   </p>
                   <p className="card-text">
-                    <small className="text-body-secondary">
-                      Last updated 08 Feb 26{" "}
-                    </small>
+                    <small className="text-body-secondary">Last updated 08 Feb 26 </small>
                   </p>
                 </div>
               </div>
@@ -101,53 +125,6 @@ const Projects = () => {
               </div>
             </div>
           </div>
-
-          {/* <div className="card m-3 m-xs-4 m-lg-5 rounded-5 overflow-hidden">
-            <div className="row g-0 ">
-              <div className="">
-                <div className="card-body">
-                  <div className="text-center">
-                    <h5 className="card-title pb-2 d-inline-block border-bottom border-primary border-5 fs-1">
-                      Data Engineer / Data Analyst
-                    </h5>
-                  </div>
-
-                  <p className="card-text px-md-2 px-lg- px-xl-5 my-3 fs-5">
-                    Beyond full-stack web development, projects also include
-                    hands-on work in data engineering and analytics, focused on
-                    building scalable, automated pipelines that transform raw
-                    operational data into meaningful business insights.
-                  </p>
-                  <p className="card-text px-md-2 px-lg- px-xl-5 my-3 fs-5">
-                    Experience includes designing end-to-end ETL workflows using
-                    SQL, Python, Snowflake, BigQuery, and AWS services (RDS, S3,
-                    Lambda, CloudWatch, SNS), along with Terraform for
-                    Infrastructure as Code. These projects emphasise reliable
-                    data movement, structured transformations, and robust error
-                    logging/monitoring systems to ensure dependable,
-                    production-ready data solutions that support informed
-                    decision-making and operational efficiency.
-                  </p>
-                  <p className="card-text px-md-2 px-lg- px-xl-5 my-3 fs-4">
-                    <a href="https://chiraggivan.github.io/DataAnalyst/">
-                      <small className="text-body-secondary ">
-                        Portfolio: Data Engineer / Data Analyst
-                      </small>
-                    </a>
-                  </p>
-                </div>
-              </div>
-              <div className="">
-                <a href="https://chiraggivan.github.io/DataAnalyst/">
-                  <img
-                    src="/react-portfolio/images/data-portfolio-light-16-9.png"
-                    className="img-fluid "
-                    alt="Data Portfolio"
-                  />
-                </a>
-              </div>
-            </div>
-          </div> */}
         </div>
         <div className="col-lg-0 col-xl-1 col-xxl-2"></div>
       </div>
